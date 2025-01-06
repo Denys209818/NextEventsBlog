@@ -55,5 +55,6 @@ export async function getStaticProps(context) {
             description: meetup.description,
             image: meetup.image,
         },
+        revalidate: 1,
     }
 }
